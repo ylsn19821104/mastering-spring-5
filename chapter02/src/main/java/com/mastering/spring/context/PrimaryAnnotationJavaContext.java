@@ -54,6 +54,5 @@ public class PrimaryAnnotationJavaContext {
 
         SomeService service = context.getBean(SomeService.class);
         logger.debug(service.algorithm.toString());
-
     }
 }
